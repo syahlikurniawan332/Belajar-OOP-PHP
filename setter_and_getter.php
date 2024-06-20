@@ -100,6 +100,9 @@ echo $produk1->getInfoProduk();
 echo '<br>';
 $produk2 = new Game("Final Fantasy", "Tetsuya Nomura", "Square Enix", 300000, 50);
 echo $produk2->getInfoGame();
+echo "<br>";
+$produk3 = new Game();
+echo $produk3->getInfoGame();
 echo "<hr>";
 
 $produk2->setDiskon(50);
